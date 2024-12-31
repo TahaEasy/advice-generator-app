@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Manrope";
+  src: url(./manrope.regular.otf);
+}
+
+:root {
+  --primary-200: hsl(193, 38%, 86%);
+  --primary-400: hsl(150, 100%, 66%);
+
+  --neutral-500: hsl(217, 19%, 38%);
+  --neutral-600: hsl(217, 19%, 24%);
+  --neutral-700: hsl(218, 23%, 16%);
+
+  --font-quote: 28px;
+}
+
+body {
+  font-family: "Manrope";
+  background-color: var(--neutral-700);
+  min-height: 100vh;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
